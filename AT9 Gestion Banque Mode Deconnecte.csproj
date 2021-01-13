@@ -34,6 +34,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -46,14 +47,99 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Ajout_Client.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ajout_Client.Designer.cs">
+      <DependentUpon>Ajout_Client.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Navigation_Compte.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Navigation_Compte.Designer.cs">
+      <DependentUpon>Navigation_Compte.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ajout_Mouvement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ajout_Mouvement.Designer.cs">
+      <DependentUpon>Ajout_Mouvement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ajout_Virement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ajout_Virement.Designer.cs">
+      <DependentUpon>Ajout_Virement.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="GereData.cs" />
+    <Compile Include="Modification_Client.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modification_Client.Designer.cs">
+      <DependentUpon>Modification_Client.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modification_Compte.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modification_Compte.Designer.cs">
+      <DependentUpon>Modification_Compte.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Navigation_Client.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Navigation_Client.Designer.cs">
+      <DependentUpon>Navigation_Client.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ajout_Compte.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ajout_Compte.Designer.cs">
+      <DependentUpon>Ajout_Compte.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Suppression_Client.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Suppression_Client.Designer.cs">
+      <DependentUpon>Suppression_Client.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Suppression_Compte.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Suppression_Compte.Designer.cs">
+      <DependentUpon>Suppression_Compte.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Suppression_Mouvement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Suppression_Mouvement.Designer.cs">
+      <DependentUpon>Suppression_Mouvement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Suppression_Virement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Suppression_Virement.Designer.cs">
+      <DependentUpon>Suppression_Virement.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ajout_Compte.resx">
+      <DependentUpon>Ajout_Compte.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modification_Compte.resx">
+      <DependentUpon>Modification_Compte.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Navigation_Compte.resx">
+      <DependentUpon>Navigation_Compte.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>

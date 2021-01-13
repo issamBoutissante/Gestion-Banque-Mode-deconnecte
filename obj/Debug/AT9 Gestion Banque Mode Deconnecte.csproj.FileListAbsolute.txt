@@ -1,0 +1,13 @@
+C:\Users\bouti\OneDrive\سطح المكتب\desktop dev client serveur\exercises\AT9 Gestion Banque Mode Deconnecte\bin\Debug\AT9 Gestion Banque Mode Deconnecte.exe.config
+C:\Users\bouti\OneDrive\سطح المكتب\desktop dev client serveur\exercises\AT9 Gestion Banque Mode Deconnecte\bin\Debug\AT9 Gestion Banque Mode Deconnecte.exe
+C:\Users\bouti\OneDrive\سطح المكتب\desktop dev client serveur\exercises\AT9 Gestion Banque Mode Deconnecte\bin\Debug\AT9 Gestion Banque Mode Deconnecte.pdb
+C:\Users\bouti\OneDrive\سطح المكتب\desktop dev client serveur\exercises\AT9 Gestion Banque Mode Deconnecte\obj\Debug\AT9 Gestion Banque Mode Deconnecte.csprojAssemblyReference.cache
+C:\Users\bouti\OneDrive\سطح المكتب\desktop dev client serveur\exercises\AT9 Gestion Banque Mode Deconnecte\obj\Debug\AT9_Gestion_Banque_Mode_Deconnecte.Form1.resources
+C:\Users\bouti\OneDrive\سطح المكتب\desktop dev client serveur\exercises\AT9 Gestion Banque Mode Deconnecte\obj\Debug\AT9_Gestion_Banque_Mode_Deconnecte.Properties.Resources.resources
+C:\Users\bouti\OneDrive\سطح المكتب\desktop dev client serveur\exercises\AT9 Gestion Banque Mode Deconnecte\obj\Debug\AT9 Gestion Banque Mode Deconnecte.csproj.GenerateResource.cache
+C:\Users\bouti\OneDrive\سطح المكتب\desktop dev client serveur\exercises\AT9 Gestion Banque Mode Deconnecte\obj\Debug\AT9 Gestion Banque Mode Deconnecte.csproj.CoreCompileInputs.cache
+C:\Users\bouti\OneDrive\سطح المكتب\desktop dev client serveur\exercises\AT9 Gestion Banque Mode Deconnecte\obj\Debug\AT9 Gestion Banque Mode Deconnecte.exe
+C:\Users\bouti\OneDrive\سطح المكتب\desktop dev client serveur\exercises\AT9 Gestion Banque Mode Deconnecte\obj\Debug\AT9 Gestion Banque Mode Deconnecte.pdb
+C:\Users\bouti\OneDrive\سطح المكتب\desktop dev client serveur\exercises\AT9 Gestion Banque Mode Deconnecte\obj\Debug\AT9_Gestion_Banque_Mode_Deconnecte.Ajout_Compte.resources
+C:\Users\bouti\OneDrive\سطح المكتب\desktop dev client serveur\exercises\AT9 Gestion Banque Mode Deconnecte\obj\Debug\AT9_Gestion_Banque_Mode_Deconnecte.Navigation_Compte.resources
+C:\Users\bouti\OneDrive\سطح المكتب\desktop dev client serveur\exercises\AT9 Gestion Banque Mode Deconnecte\obj\Debug\AT9_Gestion_Banque_Mode_Deconnecte.Modification_Compte.resources
