@@ -128,14 +128,29 @@
     <Compile Include="Suppression_Virement.Designer.cs">
       <DependentUpon>Suppression_Virement.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Ajout_Client.resx">
+      <DependentUpon>Ajout_Client.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ajout_Mouvement.resx">
+      <DependentUpon>Ajout_Mouvement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ajout_Virement.resx">
+      <DependentUpon>Ajout_Virement.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Ajout_Compte.resx">
       <DependentUpon>Ajout_Compte.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Modification_Client.resx">
+      <DependentUpon>Modification_Client.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Modification_Compte.resx">
       <DependentUpon>Modification_Compte.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Navigation_Client.resx">
+      <DependentUpon>Navigation_Client.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Navigation_Compte.resx">
       <DependentUpon>Navigation_Compte.cs</DependentUpon>
@@ -149,6 +164,18 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Suppression_Client.resx">
+      <DependentUpon>Suppression_Client.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Suppression_Compte.resx">
+      <DependentUpon>Suppression_Compte.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Suppression_Mouvement.resx">
+      <DependentUpon>Suppression_Mouvement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Suppression_Virement.resx">
+      <DependentUpon>Suppression_Virement.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

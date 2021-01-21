@@ -22,9 +22,15 @@ namespace AT9_Gestion_Banque_Mode_Deconnecte
             //if the adapter already existes we just return it
             if (adapters.ContainsKey(TableName)) return dataSet.Tables[TableName];
             //if it's not exist then we insert one and give it the name of (TableName)
-            SqlDataAdapter adapter = new SqlDataAdapter(query,connection);
-            adapter.Fill(dataSet, TableName);
-            adapters.Add(TableName, adapter);
+            try
+            {
+                SqlDataAdapter adapter = new SqlDataAdapter(query, connection);
+                adapter.Fill(dataSet, TableName);
+                adapters.Add(TableName, adapter);
+            }catch(Exception e)
+            {
+                MessageBox.Show("Error : "+e.Message);
+            }            
             return dataSet.Tables[TableName];
         }
         internal void UpdateAndClose(string TableName,Form form)
@@ -32,12 +38,31 @@ namespace AT9_Gestion_Banque_Mode_Deconnecte
             DialogResult result = MessageBox.Show("voullez vous sauvgarder les changement ?", "sauvgarder", MessageBoxButtons.YesNo, MessageBoxIcon.Information);
             if (result == DialogResult.Yes)
             {
-                var adapter = adapters[TableName];
-                SqlCommandBuilder builder = new SqlCommandBuilder(adapter);
-                adapter.Update(dataSet.Tables[TableName]);
+                try
+                {
+                    var adapter = adapters[TableName];
+                    SqlCommandBuilder builder = new SqlCommandBuilder(adapter);
+                    adapter.Update(dataSet.Tables[TableName]);
+                }catch(Exception e)
+                {
+                    MessageBox.Show("Error : "+e.Message);
+                }
             }
             form.MdiParent.Close();
         }
-        
+        internal void Update(string TableName)
+        {
+                try
+                {
+                    var adapter = adapters[TableName];
+                    SqlCommandBuilder builder = new SqlCommandBuilder(adapter);
+                    adapter.Update(dataSet.Tables[TableName]);
+                }
+                catch (Exception e)
+                {
+                    MessageBox.Show("Error : " + e.Message);
+                }
+        }
+
     }
 }

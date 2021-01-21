@@ -74,6 +74,7 @@
             this.Quitter.TabIndex = 23;
             this.Quitter.Text = "Quitter";
             this.Quitter.UseVisualStyleBackColor = true;
+            this.Quitter.Click += new System.EventHandler(this.Quitter_Click);
             // 
             // ModifierCompte
             // 
@@ -192,6 +193,7 @@
             this.NumCompte.Name = "NumCompte";
             this.NumCompte.Size = new System.Drawing.Size(148, 28);
             this.NumCompte.TabIndex = 29;
+            this.NumCompte.SelectedIndexChanged += new System.EventHandler(this.NumCompte_SelectedIndexChanged);
             // 
             // Modification_Compte
             // 

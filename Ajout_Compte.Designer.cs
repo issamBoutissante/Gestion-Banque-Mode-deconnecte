@@ -136,7 +136,7 @@
             this.EnregistrerCompte.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.EnregistrerCompte.Location = new System.Drawing.Point(530, 150);
             this.EnregistrerCompte.Name = "EnregistrerCompte";
-            this.EnregistrerCompte.Size = new System.Drawing.Size(159, 40);
+            this.EnregistrerCompte.Size = new System.Drawing.Size(159, 56);
             this.EnregistrerCompte.TabIndex = 11;
             this.EnregistrerCompte.Text = "Enregistrer et Quitter";
             this.EnregistrerCompte.UseVisualStyleBackColor = true;

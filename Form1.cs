@@ -1,11 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace AT9_Gestion_Banque_Mode_Deconnecte
@@ -26,9 +19,8 @@ namespace AT9_Gestion_Banque_Mode_Deconnecte
         void openForm(Form form)
         {
             if (this.ActiveMdiChild != null) this.ActiveMdiChild.Close();
-            form.Dock = DockStyle.Fill;
-            this.Dock = DockStyle.Fill;
             form.MdiParent = this;
+            form.Dock = DockStyle.Fill;
             form.Show();
         }
 
@@ -40,6 +32,51 @@ namespace AT9_Gestion_Banque_Mode_Deconnecte
         private void modificationCompteToolStripMenuItem_Click(object sender, EventArgs e)
         {
             openForm(new Modification_Compte());
+        }
+
+        private void suppressionCompteToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            openForm(new Suppression_Compte());
+        }
+
+        private void navigationToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            openForm(new Navigation_Client());
+        }
+
+        private void ajoutClientToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            openForm(new Ajout_Client());
+        }
+
+        private void modificationClientToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            openForm(new Modification_Client());
+        }
+
+        private void suppressionClientToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            openForm(new Suppression_Client());
+        }
+
+        private void ajoutMouvementToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            openForm(new Ajout_Mouvement());
+        }
+
+        private void suppressionMovementToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            openForm(new Suppression_Mouvement());
+        }
+
+        private void ajoutVirementToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            openForm(new Ajout_Virement());
+        }
+
+        private void suppressionVirementToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            openForm(new Suppression_Virement());
         }
     }
 }

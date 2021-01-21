@@ -98,6 +98,7 @@
             this.suppressionCompteToolStripMenuItem.Name = "suppressionCompteToolStripMenuItem";
             this.suppressionCompteToolStripMenuItem.Size = new System.Drawing.Size(188, 22);
             this.suppressionCompteToolStripMenuItem.Text = "Suppression Compte";
+            this.suppressionCompteToolStripMenuItem.Click += new System.EventHandler(this.suppressionCompteToolStripMenuItem_Click);
             // 
             // clientsToolStripMenuItem
             // 
@@ -113,26 +114,30 @@
             // navigationToolStripMenuItem1
             // 
             this.navigationToolStripMenuItem1.Name = "navigationToolStripMenuItem1";
-            this.navigationToolStripMenuItem1.Size = new System.Drawing.Size(176, 22);
-            this.navigationToolStripMenuItem1.Text = "Navigation";
+            this.navigationToolStripMenuItem1.Size = new System.Drawing.Size(209, 22);
+            this.navigationToolStripMenuItem1.Text = "Recherche Compte Client";
+            this.navigationToolStripMenuItem1.Click += new System.EventHandler(this.navigationToolStripMenuItem1_Click);
             // 
             // ajoutClientToolStripMenuItem
             // 
             this.ajoutClientToolStripMenuItem.Name = "ajoutClientToolStripMenuItem";
-            this.ajoutClientToolStripMenuItem.Size = new System.Drawing.Size(176, 22);
+            this.ajoutClientToolStripMenuItem.Size = new System.Drawing.Size(209, 22);
             this.ajoutClientToolStripMenuItem.Text = "Ajout Client";
+            this.ajoutClientToolStripMenuItem.Click += new System.EventHandler(this.ajoutClientToolStripMenuItem_Click);
             // 
             // modificationClientToolStripMenuItem
             // 
             this.modificationClientToolStripMenuItem.Name = "modificationClientToolStripMenuItem";
-            this.modificationClientToolStripMenuItem.Size = new System.Drawing.Size(176, 22);
+            this.modificationClientToolStripMenuItem.Size = new System.Drawing.Size(209, 22);
             this.modificationClientToolStripMenuItem.Text = "Modification Client";
+            this.modificationClientToolStripMenuItem.Click += new System.EventHandler(this.modificationClientToolStripMenuItem_Click);
             // 
             // suppressionClientToolStripMenuItem
             // 
             this.suppressionClientToolStripMenuItem.Name = "suppressionClientToolStripMenuItem";
-            this.suppressionClientToolStripMenuItem.Size = new System.Drawing.Size(176, 22);
+            this.suppressionClientToolStripMenuItem.Size = new System.Drawing.Size(209, 22);
             this.suppressionClientToolStripMenuItem.Text = "Suppression Client";
+            this.suppressionClientToolStripMenuItem.Click += new System.EventHandler(this.suppressionClientToolStripMenuItem_Click);
             // 
             // operationsToolStripMenuItem
             // 
@@ -149,7 +154,7 @@
             this.ajoutMouvementToolStripMenuItem,
             this.suppressionMovementToolStripMenuItem});
             this.mouvementToolStripMenuItem.Name = "mouvementToolStripMenuItem";
-            this.mouvementToolStripMenuItem.Size = new System.Drawing.Size(139, 22);
+            this.mouvementToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.mouvementToolStripMenuItem.Text = "Mouvement";
             // 
             // ajoutMouvementToolStripMenuItem
@@ -157,12 +162,14 @@
             this.ajoutMouvementToolStripMenuItem.Name = "ajoutMouvementToolStripMenuItem";
             this.ajoutMouvementToolStripMenuItem.Size = new System.Drawing.Size(199, 22);
             this.ajoutMouvementToolStripMenuItem.Text = "Ajout Mouvement";
+            this.ajoutMouvementToolStripMenuItem.Click += new System.EventHandler(this.ajoutMouvementToolStripMenuItem_Click);
             // 
             // suppressionMovementToolStripMenuItem
             // 
             this.suppressionMovementToolStripMenuItem.Name = "suppressionMovementToolStripMenuItem";
             this.suppressionMovementToolStripMenuItem.Size = new System.Drawing.Size(199, 22);
             this.suppressionMovementToolStripMenuItem.Text = "Suppression Movement";
+            this.suppressionMovementToolStripMenuItem.Click += new System.EventHandler(this.suppressionMovementToolStripMenuItem_Click);
             // 
             // virementToolStripMenuItem
             // 
@@ -170,7 +177,7 @@
             this.ajoutVirementToolStripMenuItem,
             this.suppressionVirementToolStripMenuItem});
             this.virementToolStripMenuItem.Name = "virementToolStripMenuItem";
-            this.virementToolStripMenuItem.Size = new System.Drawing.Size(139, 22);
+            this.virementToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.virementToolStripMenuItem.Text = "Virement";
             // 
             // ajoutVirementToolStripMenuItem
@@ -178,12 +185,14 @@
             this.ajoutVirementToolStripMenuItem.Name = "ajoutVirementToolStripMenuItem";
             this.ajoutVirementToolStripMenuItem.Size = new System.Drawing.Size(189, 22);
             this.ajoutVirementToolStripMenuItem.Text = "Ajout Virement";
+            this.ajoutVirementToolStripMenuItem.Click += new System.EventHandler(this.ajoutVirementToolStripMenuItem_Click);
             // 
             // suppressionVirementToolStripMenuItem
             // 
             this.suppressionVirementToolStripMenuItem.Name = "suppressionVirementToolStripMenuItem";
             this.suppressionVirementToolStripMenuItem.Size = new System.Drawing.Size(189, 22);
             this.suppressionVirementToolStripMenuItem.Text = "Suppression Virement";
+            this.suppressionVirementToolStripMenuItem.Click += new System.EventHandler(this.suppressionVirementToolStripMenuItem_Click);
             // 
             // Form1
             // 
